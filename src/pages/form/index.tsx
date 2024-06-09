@@ -91,7 +91,7 @@ const FormPage = () => {
   };
 
   const headerStyle: React.CSSProperties = {
-    margin: "2px 0",
+    margin: "8px 0",
   };
 
   const containerStyle: React.CSSProperties = {
