@@ -1,0 +1,9 @@
+{
+  "test": "Test {{number}}",
+  "layout_style": "Layout & Style",
+  "connect_api": "Connect API",
+  "form_table": "Form & Table",
+  "move_shape": "Move shape",
+  "move_position": "Move position",
+  "home_page": "Home Page"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "แบบทดสอบที่ {{number}}",
+  "layout_style": "การจัดการหน้าเว็บ",
+  "connect_api": "การเชื่อมต่อ API",
+  "form_table": "การจัดการหน้าฟอร์ม",
+  "move_shape": "เลื่อนรูปแบบ",
+  "move_position": "เปลี่ยนตำแหน่ง",
+  "home_page": "หน้าหลัก"
+}

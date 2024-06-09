@@ -1,0 +1,9 @@
+.button {
+  border: unset;
+  &:hover {
+    background-color: var(--color-orange) !important;
+  }
+  &:active {
+    background-color: var(--color-green) !important;
+  }
+}
