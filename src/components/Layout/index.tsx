@@ -7,7 +7,6 @@ import i18n from "../../i18n";
 
 const layoutStyle: React.CSSProperties = {
   minHeight: "100vh",
-  width: "100vw",
   backgroundImage: "linear-gradient(to right, #90ee90, #ffa500)",
   padding: "6px 6px",
 };
