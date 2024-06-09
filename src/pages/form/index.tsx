@@ -106,6 +106,10 @@ const FormPage = () => {
     padding: "12px 24px",
   };
 
+  const dashPhoneStyle: React.CSSProperties = {
+    marginTop: "6px",
+  };
+
   const handleChangeInput = (
     name: string,
     value: string | string[] | { key: string; label: string }
@@ -362,7 +366,7 @@ const FormPage = () => {
               name="gender"
             />
           </Flex>
-          <Flex gap="20px" align="center">
+          <Flex gap="20px">
             <CustomDropdown
               isRequired
               options={phonePrefixList}
@@ -378,12 +382,13 @@ const FormPage = () => {
               label="หมายเลขโทรศัพท์มือถือ"
               name="phonePrefix"
             />
-            <Text>-</Text>
+            <Text style={dashPhoneStyle}>-</Text>
             <CustomInput
               value={user.phoneNumber}
               inputWidth="250px"
               onChange={(e) => handleChangeInput("phoneNumber", e.target.value)}
               name="phoneNumber"
+              type="number"
             />
           </Flex>
           <Flex gap="20px" align="center">
